@@ -1,0 +1,18 @@
+This is a simplified version of BlackJack
+-----------------------------------------------------------------------------------------------
+We have a computer dealer and a human player.
+The human player is going to place a bet.
+The player starts with 2 cards face up. 
+The dealer starts with 1 card face up and 1 card face down.
+
+The player goes first intending to get value of card sums closer to 21 than the dealer does
+There are 2 possible actions:
+1.) Hit: to grab a card from the deck
+2.) Stay: to stop receiving a card
+
+Then, it is the computer's turn.
+If the player is under 21, the dealer hits until either beat the player or the dealer busts (go over 21).
+-----------------------------------------------------------------------------------------------
+Special Rules
+1.) Face cards count as a value of 10
+2.) Aces can count as either 1 or 11. Whichever value is preferable to the player
